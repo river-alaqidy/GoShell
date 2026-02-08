@@ -51,6 +51,7 @@ func main() {
 		if err != nil {
 			fmt.Fprintln(os.Stderr, err)
 		}
+
 		// handle execution of the input
 		if err = execInput(input); err != nil {
 			fmt.Fprintln(os.Stderr, err)
